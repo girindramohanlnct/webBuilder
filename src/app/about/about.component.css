@@ -56,7 +56,16 @@
 
 @media (max-width: 760px) {
   .cd {
-    left: calc(20%);
+    left: 18px;
+  }
+  .bg {
+    height: 100%;
+  }
+}
+
+@media (max-width: 200px) {
+  .cd {
+    right: auto;
   }
   .bg {
     height: 100%;
