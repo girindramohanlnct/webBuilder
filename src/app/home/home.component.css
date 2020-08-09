@@ -1,0 +1,64 @@
+.image {
+  background-image: url("../../assets/background_11.wide.jpeg");
+  height: 89vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.content {
+  position: absolute;
+  width: 1180px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  animation: slideInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+  color: #fff;
+  font-size: 40px;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  font-weight: lighter;
+  /* text-transform: uppercase; */
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: lighter;
+  text-decoration: none;
+  border-radius: 200px;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #fa923f;
+  border: 1px solid #fa923f;
+}
+
+.btn:hover {
+  background-color: #fa923f;
+  color: #fff;
+}
+
+@media (max-width: 1180px) {
+  .content {
+    width: 100%;
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 980px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 760px) {
+  h1 {
+    font-size: 20px;
+  }
+}
